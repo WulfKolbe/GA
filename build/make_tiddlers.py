@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Turn ~/PGA/wiki/**/*.md into TiddlyWiki .tid files.
+# SPDX-License-Identifier: MIT
+"""Turn wiki/**/*.md into TiddlyWiki .tid files.
 
 Tiddler title == markdown file stem, so [[WikiLinks]] resolve directly.
 Relative markdown links (concepts/Foo.md) are rewritten to [[Text|Foo]].

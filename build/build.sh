@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Build a single-file TiddlyWiki from ~/PGA/wiki/. No server, no Python runtime, no Bun.
+# SPDX-License-Identifier: MIT
+# Build a single-file TiddlyWiki from wiki/. No server, no Python runtime, no Bun.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 TW="$ROOT/build/tw"

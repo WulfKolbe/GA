@@ -48,8 +48,21 @@ make a formula checkable.
 
 ## Licence
 
-The previous contents of this repository (an unrelated 2022 project, MIT ©
-Sanjib Kumar Sen) were replaced; that licence was removed because it did not
-cover this material. **No licence is currently declared** — add one before
-reuse. Note that the wiki quotes and reproduces excerpts of third-party
-publications, which no licence you choose can relicense.
+Three distinguishable things live here, and only one of them is mine to license.
+
+| what | licence |
+|---|---|
+| `build/` — the build scripts | **MIT** © 2026 Wulf Kolbe — see `build/LICENSE`; every file carries an SPDX tag |
+| `build/vendor/katex/` | MIT © Khan Academy — its own `LICENSE`, unmodified |
+| `wiki/`, `GA.html` — the content | **no licence granted** |
+
+The content quotes and reproduces excerpts of third-party publications (an AMS
+chapter, a Springer volume, a video transcript). No licence choice of mine can
+relicense those, so none is asserted over the wiki.
+
+There is deliberately **no repository-root `LICENSE`**: one would make GitHub
+report the whole repository as MIT, which would be wrong about the content —
+the part a reader is most likely to reuse.
+
+The repository previously carried MIT © 2022 Sanjib Kumar Sen from an unrelated
+project; that was removed with the project it covered.

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Import a drilled pdfdrill document into an llmwiki-shaped wiki.
 
 Generic importer: everything document-specific comes from the model and the OKF
@@ -7,7 +8,7 @@ first (projection only — it does NOT rebuild the model, so held enrichments
 survive).
 
     python3 import_pdfdrill.py --doc <library-dir> --bibkey cardona2013 \
-        --wiki ~/PGA/wiki --evidence 3
+        --wiki wiki/ --evidence 3
 
 Stages
   1 verify    model + OKF bundle + crops present; census by object type

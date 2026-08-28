@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// SPDX-License-Identifier: MIT
 /* Read {files:[{path,text}]} on stdin; replace $...$ / $$...$$ with TiddlyWiki
    <$latex/> widgets that TRANSCLUDE the LaTeX from a per-formula tiddler.
 

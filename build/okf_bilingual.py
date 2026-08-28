@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Bilingual OKF emitter — reference implementation of the format proposed to pdfdrill.
 
 The docmodel already holds both languages after `pdfdrill translate`:

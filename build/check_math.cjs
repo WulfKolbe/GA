@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// SPDX-License-Identifier: MIT
 /* Acceptance check for Markdown math. Usage: node check_math.cjs <file.md> [...]
    Exits non-zero if any $...$ / $$...$$ expression fails to compile. */
 const fs = require("fs");

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Emit audit/verification.json — the checks an auditor would otherwise re-derive.
 
 Everything here is measured from the working tree. Run it before publishing:
