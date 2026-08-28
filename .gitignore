@@ -1,0 +1,7 @@
+# Verbatim third-party source extractions — full text of copyrighted works.
+# Kept locally for rebuilds; not published.
+raw/
+
+# Derived, rebuildable
+.llmwiki/
+build/tw/

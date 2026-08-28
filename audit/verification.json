@@ -1,0 +1,37 @@
+{
+  "generated_by": "build/verify.py",
+  "wiki": {
+    "markdown_pages": 115,
+    "pages_by_section": {
+      "root": 3,
+      "chapters": 11,
+      "sources": 3,
+      "evidence": 29,
+      "concepts": 42,
+      "gold": 24,
+      "entities": 3
+    },
+    "crops": 53
+  },
+  "math": {
+    "expressions": 452,
+    "failed": 0,
+    "exit_code": 0
+  },
+  "links": {
+    "broken": []
+  },
+  "unreferenced_pages": [
+    "log.md"
+  ],
+  "built_artifact": {
+    "path": "GA.html",
+    "exists": true,
+    "bytes": 4422167
+  },
+  "not_published": {
+    "raw/": "verbatim third-party source extractions (copyrighted); gitignored",
+    ".llmwiki/": "derived search index",
+    "build/tw/": "TiddlyWiki working tree, rebuildable"
+  }
+}
