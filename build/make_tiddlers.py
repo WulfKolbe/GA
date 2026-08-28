@@ -87,8 +87,10 @@ def main():
     # as headings. They stay on disk under raw/ (gitignored) for local work.
 
     # wiki chrome
-    write_tid("$:/SiteTitle", "PGA Wiki", "", ttype="text/vnd.tiddlywiki")
-    write_tid("$:/SiteSubtitle", "Projective Geometric Algebra", "", ttype="text/vnd.tiddlywiki")
+    write_tid("$:/SiteTitle", "GA Wiki", "", ttype="text/vnd.tiddlywiki")
+    write_tid("$:/SiteSubtitle",
+              "geometric algebra, discrete conformal geometry, QFT methods",
+              "", ttype="text/vnd.tiddlywiki")
     write_tid("$:/DefaultTiddlers", "[[Overview]]\n[[Index]]", "", ttype="text/vnd.tiddlywiki")
     write_tid("$:/config/markdown/renderWikiText", "true", "", ttype="text/vnd.tiddlywiki")
 
