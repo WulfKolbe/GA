@@ -47,6 +47,11 @@ In descending order of how much a wrong answer would matter:
 These are structural checks. **They say nothing about whether the content is
 correct** — that is what this review is for.
 
+## Reports from this side
+
+`audit/reports/` holds one file per change I report — what changed, the evidence
+it works, and what it does not fix. `replies/` is yours; `reports/` is mine.
+
 ## How to reply
 
 Add one file per review to `audit/replies/`, named `YYYY-MM-DD-<topic>.md`, using
